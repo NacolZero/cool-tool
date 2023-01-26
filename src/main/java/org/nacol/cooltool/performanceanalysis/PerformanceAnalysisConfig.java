@@ -42,7 +42,6 @@ public class PerformanceAnalysisConfig {
         if (annotation == null) {
             return point.proceed();
         }
-
         // STEP 开始：初始化 StopWatch
         start(annotation);
         // STEP 执行方法
@@ -106,7 +105,6 @@ public class PerformanceAnalysisConfig {
             watchPool.remove(curKey);
         }
     }
-
 
     /**
      * @Author Nacol(姚秋实)

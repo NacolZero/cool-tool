@@ -1,4 +1,4 @@
-package org.nacol.cooltool.utils.result;
+package org.nacol.cooltool.common.result;
 
 import lombok.Data;
 

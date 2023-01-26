@@ -17,6 +17,4 @@ public @interface PerformanceAnalysis {
 
     boolean endFlag() default false;
 
-
-
 }
