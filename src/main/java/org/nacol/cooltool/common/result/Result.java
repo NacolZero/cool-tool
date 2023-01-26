@@ -101,7 +101,7 @@ public class Result<T> {
 
     /*********************************************** 构建【业务异常】返回结果 ***********************************************/
     public static <T> Result<T> bizException(){
-        return new Result<T>(ResultStatus.BIZ_EXCEPTION.getCode(), ResultStatus.INTERNAL_SERVER_ERROR.getReason());
+        return new Result<T>(ResultStatus.BIZ_EXCEPTION.getCode(), ResultStatus.BIZ_EXCEPTION.getReason());
     }
 
     public static <T> Result<T> bizException(T data){

@@ -3,7 +3,7 @@ package org.nacol.cooltool.aop;
 import org.springframework.aop.framework.AopContext;
 
 /**
- * @Author Nacol(姚秋实)
+ * @Author Nacol
  * @Date 2022/10/29
  * @Description AOP代理
  * 背景：
