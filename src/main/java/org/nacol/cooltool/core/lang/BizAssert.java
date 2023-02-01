@@ -73,6 +73,12 @@ public class BizAssert {
             throw new BizException("ID为空。");
     }
 
+    public static <T, R> void isTrue(boolean flag, String message) {
+        if (flag) {
+            throw new BizException(message);
+        }
+    }
+
     public static void main(String[] args) {
 //        idIsNull("param");
 //
